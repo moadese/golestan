@@ -1,0 +1,370 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  direction: rtl;
+}
+@font-face {
+  font-family: sans;
+  src: url(../woff2/IRANSansX-Medium.woff2);
+}
+@font-face {
+  font-family: sans2;
+  src: url(../woff2/IRANSansX-Thin.woff2);
+}
+div.menu {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+
+  position: sticky;
+  font-family: sans;
+  top: 0;
+  z-index: 999;
+}
+div.menu > nav {
+  margin: 0 auto;
+  width: 60%;
+  height: inherit;
+}
+div.menu > nav > ul {
+  width: 100%;
+  height: 100px;
+  margin-right: 80px;
+  text-align: center;
+
+  display: flex;
+  justify-content: space-between;
+}
+div.menu > nav > ul > li {
+  line-height: 120px;
+}
+div.menu > nav > ul > li > a {
+  text-decoration: none;
+  color: #a2a4af;
+  border-left: 1px solid #a2a4af;
+  padding-left: 20px;
+  transition: all 100ms linear;
+}
+
+div.menu > nav > ul > li > a:hover {
+  color: white;
+}
+a.nagire {
+  border: unset !important;
+}
+div.logo {
+  position: absolute;
+  right: 140px;
+  top: 50px;
+}
+div.box {
+  height: 600px;
+  width: 100%;
+  background-color: #edf1b2;
+  display: flex;
+
+  font-family: sans2;
+}
+div.box > div.txt1 {
+  height: inherit;
+  width: 50%;
+  text-align: right;
+  padding: 150px 200px 0px 100px;
+}
+div.box > div.txt1 > h1 {
+  color: #ff0000;
+}
+div.box > div.txt1 > p {
+  font-weight: 600;
+  color: #888567;
+  text-align: justify;
+  margin-bottom: 40px;
+}
+div.box div.button {
+  border: 1px solid #cace96;
+  background-color: white;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px 15px;
+  width: 150px;
+  font-weight: 600;
+  color: #888567;
+}
+div.box > div.image {
+  height: inherit;
+  text-align: center;
+  padding-top: 70px;
+  width: 50%;
+}
+div.txt2 {
+  height: 800px;
+  width: 100%;
+  padding: 40px 300px;
+}
+div.txt2 > h3 {
+  font-family: sans;
+  color: #ff2e2e;
+  padding: 30px 0;
+}
+div.txt2 > p {
+  font-family: sans2;
+  font-weight: 600;
+  color: #888567;
+  line-height: 35px;
+  text-align: justify;
+  padding-bottom: 40px;
+}
+div.txt2 > p > span {
+  color: #ff2e2e;
+}
+div.images {
+  direction: ltr;
+  display: flex;
+  justify-content: space-evenly;
+  width: 850px;
+  height: 400px;
+  margin: 0 auto;
+}
+div.images h4 {
+  text-align: center;
+  padding: 10px 0;
+  font-family: sans2;
+  color: #706e57;
+  border-bottom: 1px solid #cace96;
+}
+div.bg1 {
+  height: 580px;
+  margin: 30px 0;
+  position: relative;
+  background-image: url(../media/image2-new.jpg);
+  background-repeat: no-repeat;
+  background-color: #e9d69f;
+}
+
+div.red {
+  width: 300px;
+  height: 120px;
+  background-color: #ff0000;
+  position: absolute;
+  right: 300px;
+  bottom: 0;
+}
+div.red > h2 {
+  padding: 20px;
+  color: white;
+  font-family: sans2;
+}
+div.red > h3 {
+  padding-right: 20px;
+
+  color: white;
+  font-family: sans2;
+}
+div.txt3 {
+  width: 100%;
+  padding: 40px 300px;
+}
+div.txt3 > h3 {
+  font-family: sans;
+  color: #ff2e2e;
+  padding: 30px 0;
+}
+div.txt3 > p {
+  font-family: sans2;
+  font-weight: 600;
+  color: #888567;
+  line-height: 35px;
+  padding-bottom: 40px;
+  text-align: justify;
+}
+div.txt3 > div.button1 {
+  border: 1px solid #cace96;
+  background-color: white;
+  border-radius: 8px;
+  font-family: sans2;
+  text-align: center;
+  padding: 15px 15px;
+  width: 150px;
+  font-weight: 600;
+  color: #888567;
+  display: inline-block;
+  margin-left: 3px;
+}
+div.txt3 > div.button1:hover {
+  color: white;
+  background-color: #ff0000;
+}
+div.txt3 > div.button2 {
+  border: 1px solid #cace96;
+  background-color: white;
+  border-radius: 8px;
+  font-family: sans2;
+  text-align: center;
+  padding: 15px 15px;
+  width: 150px;
+  font-weight: 600;
+  color: #888567;
+  display: inline-block;
+}
+div.txt3 > div.button2:hover {
+  color: white;
+  background-color: #ff0000;
+}
+
+div.bg2 {
+  height: 580px;
+  margin: 30px 0;
+  position: relative;
+  background-image: url(../media/image3-new.jpg);
+  background-repeat: no-repeat;
+  background-color: #e9d69f;
+}
+div.txt4 {
+  height: 800px;
+  width: 100%;
+  padding: 40px 300px;
+}
+div.txt4 > h3 {
+  font-family: sans;
+  color: #ff2e2e;
+  padding: 30px 0;
+}
+div.txt4 > p {
+  font-family: sans2;
+  font-weight: 600;
+  color: #888567;
+  line-height: 35px;
+  padding-bottom: 40px;
+  text-align: justify;
+}
+div.txt4 > div.button3 {
+  border: 1px solid #cace96;
+  background-color: white;
+  border-radius: 8px;
+  font-family: sans2;
+  text-align: center;
+  padding: 15px 15px;
+  width: 150px;
+  font-weight: 600;
+  color: #888567;
+}
+div.txt4 > div.button3:hover {
+  color: white;
+  background-color: #ff0000;
+}
+div.bg3 {
+  height: 580px;
+  margin: 30px 0;
+  position: relative;
+  background-image: url(../media/image4-new.jpg);
+  background-repeat: no-repeat;
+  background-color: #e9d69f;
+}
+div.txt5 {
+  height: 600px;
+  width: 100%;
+  padding: 40px 300px;
+}
+div.txt5 > h3 {
+  font-family: sans;
+  color: #ff2e2e;
+  padding: 30px 0;
+}
+div.txt5 > p {
+  font-family: sans2;
+  font-weight: 600;
+  color: #888567;
+  line-height: 35px;
+  padding-bottom: 40px;
+  text-align: justify;
+}
+div.txt5 > p > span {
+  color: #ff2e2e;
+}
+div.txt5 > div.button4 {
+  border: 1px solid #cace96;
+  background-color: white;
+  border-radius: 8px;
+  font-family: sans2;
+  text-align: center;
+  padding: 15px 15px;
+  width: 150px;
+  font-weight: 600;
+  color: #888567;
+}
+div.txt5 > div.button4:hover {
+  color: white;
+  background-color: #ff0000;
+}
+div.parallax {
+  background-image: url(../media/recipe-baner-1.png);
+  background-attachment: fixed;
+  width: 100%;
+  height: 250px;
+}
+div.kitchen {
+  width: 100%;
+  padding: 30px 0;
+  padding-right: 200px;
+}
+
+div.kitchen > span.content {
+  line-height: 50px;
+  color: #ff0000;
+  font-family: sans;
+  font-size: large;
+}
+div.kitchen > span {
+  line-height: 50px;
+  color: #706e57;
+  font-weight: 600;
+  font-family: sans2;
+}
+
+div.eat {
+  width: 100%;
+  background-color: lightgray;
+  text-align: center;
+  padding: 25px 0;
+}
+div.eat > div.product {
+  width: 28%;
+  background-color: rgb(255, 255, 255);
+  display: inline-block;
+  border-radius: 25px;
+  padding: 0 0 30px 0;
+  margin: 0 20px;
+}
+div.eat > div.product > img {
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+}
+div.eat > div.product > h3 {
+  text-align: start;
+  padding: 20px 30px;
+  margin: 15px 0;
+  color: #ff0000;
+  font-family: sans2;
+}
+div.eat > div.product > p {
+  text-align: justify;
+  padding: 15px 20px;
+  margin: 15px 0;
+  font-family: sans2;
+}
+div.eat > div.product > div.button5 {
+  border: 1px solid #cace96;
+  background-color: white;
+  border-radius: 8px;
+  font-family: sans2;
+  text-align: center;
+  padding: 15px 15px;
+  width: 150px;
+  font-weight: 600;
+  color: #888567;
+}
+div.eat > div.product > div.button5:hover {
+  background-color: #ff0000;
+  color: white;
+}
